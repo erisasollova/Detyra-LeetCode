@@ -201,7 +201,7 @@ public:
     }
 
     //Time O(n)
-    //Space O(1)
+    //Space O(n)
     string makeGood(string s) {
         stack<char> st;
 
@@ -226,7 +226,7 @@ public:
     }
 
     //Time O(n)
-    //Space O(1)
+    //Space O(n)
     string removeOuterParentheses(string s) {
         string result;
         int level = 0;
@@ -246,7 +246,7 @@ public:
     }
 
     //Time O(n)
-    //Space O(1)
+    //Space O(n)
     bool isValid(string s) {
 
         stack<char> brackets;
@@ -282,8 +282,8 @@ private:
     queue<int> q;
 public:
 
-    //Time O(n)
-    //Space O(1)
+    //Time O(1)
+    //Space O(n)
     RecentCounter() {}
 
     int ping(int t) {
